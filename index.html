@@ -1,8 +1,8 @@
 <html>
 <head>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <link rel= "stylesheet" type= "text/css" href="css/tribute.css">
-<style>
+  <link rel= "stylesheet" type= "text/css" href="css/tribute.css" media ="screen">
+<style media = "screen, print">
 /* #image  {
  max-width: 100%;
  height: auto;
@@ -32,31 +32,36 @@ p{
 
 <body>
   <div id= "main">
-  <h1 id ="title">Search Party </h1>
+  <h1 class = "center" id ="title">Search Party </h1>
+<div id="img-div">
+  <div class="row">
 
-<div id ="img-div">
-<div class = "row" >
+<div class="column"></div>
+    <div class="column">
+      <img src="images/search_party_album.jpg" alt= "search party album" id="image">
+      <img src="images/search_party_cast.jpg" alt= "search party cast"id="image">
+      <img src="images/search_party_crew.jpg" alt= "search party crew"id="image">
+      <img src="images/search_party_dark.jpg" alt= "search party dark"id="image">
+    </div>
 
-<!-- <img src = "images/search_party_cast.jpg" alt = "Search Party Cast"id="image"> -->
-<img src = "images/search_party_crew.jpg" alt = "Search Party Cast"id="image">
-<img src = "images/search_party_dark.jpg" alt = "Search Party Cast"id="image">
-<img src = "images/search_party_album.jpg" alt = "Search Party Cast"id="image">
+    <div class="column">
+      <img src="images/search_party_park.jpg" alt= "search party park"id="image">
+      <img src="images/search_party_strikes.jpg" alt= "search party strikes"id="image">
+      <img src="images/search_party_unite.jpg" alt= "search party unite"id="image">
+      <img src="images/search_party_laugh.jpg" alt= "search party laugh"id="image">
+    </div>
 
+    <!-- <div class="column"> -->
+      <!-- <img src="images/search_party_dory_mugshot.jpeg" alt= "search party mugshot" id="image"> -->
+      <!-- <img src="images/search_party_logo.png" alt= "search party logo" id="image"> -->
+    <!-- </div> -->
+    <div class="column"></div>
+
+
+    <p id ="img-caption"> Streaming on HBO Max </p>
+  </div>
 </div>
 
-<!-- <div class = "column">
-<img src = "images/search_party_laugh.jpg" alt = "Search Party Cast"id="image">
-<img src = "images/search_party_park.jpg" alt = "Search Party Cast"id="image">
-</div> -->
-
-<div class = "column">
-<!-- <img src = "images/search_party_strikes.jpg" alt = "Search Party Cast"id="image"> -->
-<!-- <img src = "images/search_party_album.jpg" alt = "Search Party Cast"id="image"> -->
-</div>
-
-<h2 id="img-caption"><em>Streaming on HBO Max</em><h2/>
-</div>
-</div>
 
 <div id="tribute-info">
 <p>
@@ -69,8 +74,9 @@ p{
 </p>
 
 </div>
-<a href = "https://en.wikipedia.org/wiki/Search_Party_(TV_series)" target ="_blank">
-  <center>Learn More about Search Party</center>
+<a class= "center" href = "https://en.wikipedia.org/wiki/Search_Party_(TV_series)" target ="_blank"id = "tribute-link">
+  <center>Click HERE for more info on Search Party</center>
+<center>  <img src="images/search_party_logo.png" alt= "search party logo" id="image"></center>
 </a>
 </div>
 

@@ -1,0 +1,101 @@
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px 4px ;
+}
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  /* display:flex; */
+  /* justify-content: space-between; */
+  /* align-content: center; */
+  /* flex-direction:row; */
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  /* align-content: center; */
+  width: 100%;
+}
+.center {
+  margin:auto;
+  width:50%;
+  padding:10px;
+  text-align: center;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 300px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    /* max-height: 45%;
+    top:45%;
+    right: 45%;
+    overflow: visible; */
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 300px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+
+  }
+}
+
+#main{
+background-color: #fff5e6;
+}
+#img-caption{
+  font-size: 30px;
+}
+
+#img-div{
+  margin:auto;
+  width:40%;
+  /* padding:5px; */
+  background-color: #fff5e6;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+#image  {
+ max-width: 100%;
+ height: auto;
+ display: flex;
+ margin-left: auto;
+ margin-right: auto;
+
+ }
+ #tribute-link{
+   color: #CC0000;
+   font-weight:bold;
+ }
+ #tribute-info{
+   background-color: #fff5e6;
+ }
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+font-family: monospace ;
+border-radius: 100px;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+
+}
+body{
+  background-color: #fff5e6;
+}
